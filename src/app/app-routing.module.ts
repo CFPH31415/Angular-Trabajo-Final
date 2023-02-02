@@ -6,7 +6,7 @@ import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { ListaComponent } from './pages/lista/lista.component';
 import { EntrarComponent } from './pages/entrar/entrar.component';
-
+//Rutas del sitio web
 const routes: Routes = [
   { path:'home', component:HomeComponent, ...canActivate(() => redirectUnauthorizedTo(['/login']))},
   { path:'login', component:LoginComponent },
