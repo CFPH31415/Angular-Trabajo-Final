@@ -9,6 +9,7 @@ import { environment } from 'src/environments/environment';
 import { provideAnalytics,getAnalytics,ScreenTrackingService,UserTrackingService } from '@angular/fire/analytics';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//firebase
 
 const config = {
   apiKey: "AIzaSyBlEAqPiuAiefaIrSpv9marJamdv5INoLc",
