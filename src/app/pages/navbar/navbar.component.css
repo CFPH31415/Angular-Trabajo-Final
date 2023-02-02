@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+}
+
+.navbar:hover {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  transition: all 0.5s ease;
+}
+
+.navbar-brand:hover {
+  color: #0095ff;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  color: #333;
+  margin-right: 1em;
+  transition: all 0.5s ease;
+}
+
+.nav-item:hover .nav-link {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-outline {
+  border-color: #333;
+  color: #333;
+  background-color: #fff;
+  border-radius: 0.25em;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  transition: all 0.5s ease;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}

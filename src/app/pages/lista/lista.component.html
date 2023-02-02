@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<h1 class="y">Lista de productos</h1>
+<table class="z">
+  <thead class="o">
+    <tr>
+      <th>Nombre</th>
+      <th>Costo</th>
+      <th>Imagen</th>
+      <th>Eliminar producto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let prod of prodts">
+      <td>{{ prod.producto }}</td>
+      <td>S/. {{ prod.costo }}</td>
+      <td><img src="{{ prod.foto }}" alt="" width="100"></td>
+      <td>
+        <button class="btn btn-danger" (click)="onClickDelete(prod)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<button class="x" (click)="productos()">Añadir productos</button>
+<div class="space"></div>

@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+    <form [formGroup]="formRegister">
+      <h1 class="text-center text-2xl mb-4">Agregar producto</h1>
+      <div class="form-group">
+        <label for="producto">Producto:</label>
+        <input type="text" formControlName="producto" name="producto" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="costo">Costo:</label>
+        <input type="text" formControlName="costo" name="costo" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="foto">URL:</label>
+        <input type="text" placeholder="Inserte solo URL" formControlName="foto" name="foto" class="form-control">
+      </div>
+      <button class="btn btn-primary" (click)="onSubmit()">Registrar producto</button>
+    </form>
+  </div>
+  <div class="space"></div>

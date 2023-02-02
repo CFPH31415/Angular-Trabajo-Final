@@ -1,0 +1,60 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  padding: 30px;
+}
+
+.a {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.b {
+  font-weight: bold;
+  text-align: center;
+}
+
+.c {
+  margin-bottom: 15px;
+}
+
+.h {
+  font-weight: bold;
+}
+
+.d, .w {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.f {
+  margin-top: 20px;
+}
+
+.g {
+  margin-bottom: 15px;
+}
+
+.x {
+  margin-top: 20px;
+}
+
+.yy {
+  display: block;
+  margin: 0 auto; /* horizontal and vertical centering */
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+

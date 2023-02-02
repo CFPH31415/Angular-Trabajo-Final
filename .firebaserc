@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "final-angular-carlos-portillo": {
+      "hosting": {
+        "finalangular": [
+          "final-angular-carlos-portillo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "final-angular-carlos-portillo"
+  }
+}

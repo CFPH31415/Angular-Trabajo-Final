@@ -1,0 +1,25 @@
+<div class="container"></div>
+<div class="row" class="a">
+    <h1 class="b">Regístrate</h1> 
+    <form [formGroup]="formRegistroUser">
+      <div style="text-align: center;">
+        <div class="c">
+          <label for="email" class="h">Email</label>
+        </div>
+        <div>
+          <input type="text" placeholder="Ingresar Email" formControlName="email" class="d">
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <div class="c">
+          <label for="password" class="h">Password</label>
+        </div>
+        <div>
+          <input type="password" placeholder="Ingresar Password" formControlName="password" class="w">
+        </div>
+      </div>
+      <div class="x">
+        <button  (click)="onSubmit()" class="yy">Register</button>
+      </div>
+    </form>
+  </div>
